@@ -1,7 +1,30 @@
 header {
-    text-align: center;
+    background-color: blue;
 }
 section{
-    width:80%;
-    left:10%;
+    background-color: green;
+}
+header, section{
+    text-align: center;
+    width:50%;
+    display: inline-block;
+}
+div{
+    width:100%;
+    height:1000px;
+    text-align: center;
+    background-color: grey;
+}
+ul{
+    padding-right: 10px;
+    padding-bottom: 10px;
+    text-emphasis: strong;
+    background-color:yellow;
+    display: inline-block;
+}
+button{
+    margin: 2px;
+}
+a{
+  text-decoration: none;  
 }
